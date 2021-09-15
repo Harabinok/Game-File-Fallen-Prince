@@ -45,11 +45,12 @@ namespace FallenPrice
 
 
         }
-
         public void LoadSave(Save.PlayerSaveData save)
         {
+
             transform.position = new Vector3(save.Position.x, save.Position.y, save.Position.z);
         }
+
 
         public void Abilities(GameObject SelectedAbility, float TimeRestart, string Name)
         {

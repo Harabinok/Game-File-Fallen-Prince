@@ -32,6 +32,14 @@ namespace FallenPrice.Component
             Instantiate(_prefab, _spawnPosition.position, transform.rotation);
             if (_action != null) _action.Invoke();
         }
+        public void SetActiveThisPrefab()
+        {
+            if(_prefab != null)
+            {
+                _prefab.SetActive(true);
+            } 
+            
+        }
         private void FixedUpdate()
         {
             MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

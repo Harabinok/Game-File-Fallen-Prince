@@ -14,7 +14,7 @@ namespace FallenPrice.GameSetting.AI
         bool SeeTarget;
 
         Animation anim;
-        UnitData unitData;
+        Model.GameData unitData;
         Player _player;
         AI _ai;
 
@@ -23,7 +23,7 @@ namespace FallenPrice.GameSetting.AI
             
             _ai = GetComponentInParent<AI>();
             _player = FindObjectOfType<Player>();
-            unitData = FindObjectOfType<UnitData>();
+            unitData = FindObjectOfType<Model.GameData>();
             GameSettingCollider2D = GetComponent<CircleCollider2D>();
 
         }

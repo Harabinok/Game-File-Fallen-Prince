@@ -39,7 +39,7 @@ namespace FallenPrice.UICommponent
                         HistoreTime = _stages[i].TimeLifeText;
                         _timeLifeText = HistoreTime;
                         _uiAvatar.sprite = _stages[i].Avatar;
-                        _uiText.text = _stages[i].Text;
+                        _uiText.text = $"{_stages[i].Text}";
                         
                         if (_stages[i].Action != null)
                         {
@@ -68,7 +68,7 @@ namespace FallenPrice.UICommponent
             }
             if (!_dialogue)
             {
-                _uiText.text = null;
+                
                 if (_currentNumber >= _maxNumber)
                 {
                     _currentNumber = 1;

@@ -25,7 +25,7 @@ namespace FallenPrice.Component
         public void Dead(bool Dia)
         {
             
-            var Enemy = FindObjectOfType<UnitData>();
+            var Enemy = FindObjectOfType<GameData>();
             Enemy.NewUnit();
             _actionDia?.Invoke();
             _ai.Dia(true);

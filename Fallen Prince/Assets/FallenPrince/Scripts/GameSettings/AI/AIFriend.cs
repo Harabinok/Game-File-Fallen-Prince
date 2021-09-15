@@ -82,10 +82,7 @@ namespace FallenPrice.GameSetting.AI
             
         }
 
-        public void LoadSave(Save.FriendSaveData save)
-        {
-            transform.position = new Vector3(save.Position.x, save.Position.y, save.Position.z);
-        }
+       
         private void Animation()
         {
             _animator.SetBool(_IsRunning, _move);

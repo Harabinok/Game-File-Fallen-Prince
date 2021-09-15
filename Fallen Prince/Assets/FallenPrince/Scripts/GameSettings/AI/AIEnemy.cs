@@ -46,10 +46,7 @@ namespace FallenPrice.GameSetting.AI
             }
         }
 
-        public void LoadSave(Save.EnemySaveData save)
-        {
-            transform.position = new Vector3(save.Position.x, save.Position.y, save.Position.z);
-        }
+        
         private void Animations()
         {
             _animator.SetBool(_IsRunning, _move );

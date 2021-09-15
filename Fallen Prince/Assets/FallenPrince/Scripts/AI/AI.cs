@@ -31,7 +31,7 @@ namespace FallenPrice.GameSetting.AI
         public Animator _animator;
         [SerializeField] protected AiAttack _aiAttack;
         [HideInInspector]
-        public UnitData _unitData;
+        public Model.GameData _unitData;
         [HideInInspector]
         public AiSee _aiSee;
         protected AiAttack aiAttack;
@@ -63,7 +63,7 @@ namespace FallenPrice.GameSetting.AI
             _position = transform.position;
             _rigidboody2D = GetComponent<Rigidbody2D>();
             _aiMovement = GetComponent<AIMovement>();
-            _unitData = FindObjectOfType<UnitData>();
+            _unitData = FindObjectOfType<Model.GameData>();
         }
 
         protected virtual void OnEnable()

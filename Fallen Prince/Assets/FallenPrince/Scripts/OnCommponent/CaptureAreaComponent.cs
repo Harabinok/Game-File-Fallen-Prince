@@ -19,14 +19,14 @@ namespace FallenPrice.Component
         [SerializeField] private Vector3 _offset;
 
 
-        private UnitData _unitData;
+        private GameData _unitData;
         private void Awake()
         {
             _progressValue.SetActive(true);
             _progress = _progressValue.GetComponentInChildren<Slider>();
             HistoreTime = _timeCapture;
             _progress.maxValue = _timeCapture;
-            _unitData = FindObjectOfType<UnitData>();
+            _unitData = FindObjectOfType<GameData>();
             
         }
 
@@ -60,7 +60,7 @@ namespace FallenPrice.Component
                 if(_progressValue != null)
                 _progress.transform.position = Camera.main.WorldToScreenPoint(this.transform.position + _offset);
             }
-            if(_timeCapture <= 0)
+            if(_timeCapture <= 0 && Time.timeScale != 0)
             {
                 _action?.Invoke();
                 Destroy(_progressValue);

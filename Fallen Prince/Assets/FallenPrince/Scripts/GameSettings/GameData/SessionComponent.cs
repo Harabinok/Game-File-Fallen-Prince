@@ -6,8 +6,8 @@ namespace FallenPrice.GameSetting.GameData
 {
     public class SessionComponent : MonoBehaviour
     {
-        [SerializeField] private GameData _gameData;
-        public GameData GamaData => _gameData;
+        [SerializeField] private PlayerData _gameData;
+        public PlayerData GamaData => _gameData;
 
         private void Awake()
         {

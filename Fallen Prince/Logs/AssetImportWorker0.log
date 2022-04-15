@@ -1,0 +1,419 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ru' Physical Memory: 16345 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Works/Game-File-Fallen-Prince/Fallen Prince
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52115
+Successfully changed project path to: F:/Works/Game-File-Fallen-Prince/Fallen Prince
+F:/Works/Game-File-Fallen-Prince/Fallen Prince
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Works/Game-File-Fallen-Prince/Fallen Prince/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 560 Series (ID=0x67ff)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002298 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Works\Game-File-Fallen-Prince\Fallen Prince\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1614ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1260ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.2 MB.
+System memory in use after: 156.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 4028.
+Total: 4.292400 ms (FindLiveObjects: 0.298100 ms CreateObjectMapping: 0.251600 ms MarkObjects: 3.645600 ms  DeleteObjects: 0.096000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/FallenPrince/GameSettings/Shaders/New Material.mat
+  artifactKey: Guid(87ed86a855d188443bc788551926cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/GameSettings/Shaders/New Material.mat using Guid(87ed86a855d188443bc788551926cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb0f477e7a0efba7803211fb2d34910') in 0.332411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.448737 seconds.
+  path: Assets/FallenPrince/Model
+  artifactKey: Guid(8862ed9cea786f340a571db2bdce03c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model using Guid(8862ed9cea786f340a571db2bdce03c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85681d92e5f34fab4c31faf59d4f042') in 0.009608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.344722 seconds.
+  path: Assets/FallenPrince/Model/Edit
+  artifactKey: Guid(5cb52e9cb3bbb934899dc2ce2197b8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Edit using Guid(5cb52e9cb3bbb934899dc2ce2197b8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cd3bdaad5514aa24fcfc20c756ed0f') in 0.008904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.832048 seconds.
+  path: Assets/FallenPrince/Model/Window.fbx
+  artifactKey: Guid(ab2d600c768de68468abf81c2ae208aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Window.fbx using Guid(ab2d600c768de68468abf81c2ae208aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504d2ac6ae597241714edfeb4c8dbcea') in 0.160534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.007922 seconds.
+  path: Assets/FallenPrince/Model/Textures
+  artifactKey: Guid(52be5f2d59c4008428e5c5457a70842b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures using Guid(52be5f2d59c4008428e5c5457a70842b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a131f8fb636216f05a07063a5454042') in 0.006394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.850391 seconds.
+  path: Assets/FallenPrince/Model/Textures/Window_Окна_BaseMap.png
+  artifactKey: Guid(658611c46d1108b4aa91f80c2d77ce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Window_Окна_BaseMap.png using Guid(658611c46d1108b4aa91f80c2d77ce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c4fc385392b92960559c1f9d97130') in 0.062634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/FallenPrince/Model/Textures/Window_Окна_Normal.png
+  artifactKey: Guid(4581eb8c066a50c448a6a0ab5beb956f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Window_Окна_Normal.png using Guid(4581eb8c066a50c448a6a0ab5beb956f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2467de312caafa8d615a80ec228d83b') in 0.023737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/FallenPrince/Model/Textures/Window_Окна_MaskMap.png
+  artifactKey: Guid(cf6867a539aba964f8d18830ad8ad193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Window_Окна_MaskMap.png using Guid(cf6867a539aba964f8d18830ad8ad193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894f7b250666d9a409c4a68da56704f2') in 0.022724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.082210 seconds.
+  path: Assets/FallenPrince/Model/Textures/Window.mat
+  artifactKey: Guid(1746b3e12c42661449188cb39a6fdca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Window.mat using Guid(1746b3e12c42661449188cb39a6fdca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd221e71720ba970eaaffd2749e97fb85') in 0.018036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.911101 seconds.
+  path: Assets/FallenPrince/Model/Post.fbx
+  artifactKey: Guid(b3a8c5da701db8748936bcd98a2d38d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Post.fbx using Guid(b3a8c5da701db8748936bcd98a2d38d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa02f71fac4812d8ea498b7b4863cb4') in 0.033042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.774933 seconds.
+  path: Assets/FallenPrince/Model/Textures/Post_Свет_AlbedoTransparency.png
+  artifactKey: Guid(fc83455c58f274f4bbe2ede7eaedc172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Post_Свет_AlbedoTransparency.png using Guid(fc83455c58f274f4bbe2ede7eaedc172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ba694c275ebf9d1a5a20e1dd626ca4') in 0.028680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FallenPrince/Model/Textures/Post_Свет_Normal.png
+  artifactKey: Guid(6f315d7e0941a1f4f83b9f9912bd539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Post_Свет_Normal.png using Guid(6f315d7e0941a1f4f83b9f9912bd539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ead9f9c346b9f5189855695af794d7b') in 0.023730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/FallenPrince/Model/Textures/Post_Свет_MetallicSmoothness.png
+  artifactKey: Guid(018ec91851178ed49aaeee5c562c89c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Post_Свет_MetallicSmoothness.png using Guid(018ec91851178ed49aaeee5c562c89c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48881172584fa6901c2d7252c91c536b') in 0.024431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.517955 seconds.
+  path: Assets/FallenPrince/Model/Textures/Materials
+  artifactKey: Guid(e2ab1535c710a0a438b53591af2729ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Materials using Guid(e2ab1535c710a0a438b53591af2729ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d70f030fb2aa37a5fda016b5560d685') in 0.007267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.207120 seconds.
+  path: Assets/FallenPrince/Model/Textures/Post.mat
+  artifactKey: Guid(b8a91866a61917649a257620c8b2e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Post.mat using Guid(b8a91866a61917649a257620c8b2e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159a308fd53fa52ebcd10a1ff8d2d6d2') in 0.016348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.882968 seconds.
+  path: Assets/FallenPrince/Model/Textures/Window_Окна_Normal.png
+  artifactKey: Guid(4581eb8c066a50c448a6a0ab5beb956f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Window_Окна_Normal.png using Guid(4581eb8c066a50c448a6a0ab5beb956f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f076c5bac04ad1b3dec65b7edf1ffd2') in 0.020654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.397083 seconds.
+  path: Assets/FallenPrince/GameSettings/Light2D/HardLight2D/Material/PointLight_Smooth.png
+  artifactKey: Guid(4d7d9a4890d1c3a4b8c856a61a99b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/GameSettings/Light2D/HardLight2D/Material/PointLight_Smooth.png using Guid(4d7d9a4890d1c3a4b8c856a61a99b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3de18b5e6d00a501eec696737c90be') in 0.094912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/FallenPrince/Sprite/Unit/Skeleton/Skeleton - 1.png
+  artifactKey: Guid(09d6feeb9907a8243addc1470e0d1901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Sprite/Unit/Skeleton/Skeleton - 1.png using Guid(09d6feeb9907a8243addc1470e0d1901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f10fcb7686a7a6ed8ddd5895feb865') in 0.120085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/FallenPrince/Sprite/Building/Sawmill - 1.png
+  artifactKey: Guid(3b57fe6cdf20f004c9934feb2242844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Sprite/Building/Sawmill - 1.png using Guid(3b57fe6cdf20f004c9934feb2242844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720efcc98b0688136df819b14aa406e8') in 0.024595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/FallenPrince/Sprite/Square.png
+  artifactKey: Guid(6013cb5eb36ad154cb75f2444d63eba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Sprite/Square.png using Guid(6013cb5eb36ad154cb75f2444d63eba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2aca3e649799dfa52066b7af0ab8c6') in 0.025900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/FallenPrince/Sprite/Terrain/Forest/Shadow-1.png
+  artifactKey: Guid(5dd7fd301ee93eb4fab237e508ee0316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Sprite/Terrain/Forest/Shadow-1.png using Guid(5dd7fd301ee93eb4fab237e508ee0316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05787e47aa38da43fad2dc3c378a6df') in 0.035595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/FallenPrince/Sprite/Terrain/Forest/Rock-1.png
+  artifactKey: Guid(6ab237361afc9144cbe1037c8a0e084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Sprite/Terrain/Forest/Rock-1.png using Guid(6ab237361afc9144cbe1037c8a0e084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7539c042fee5858044a97eaed6aea601') in 0.034370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.379998 seconds.
+  path: Assets/FallenPrince/Model/Edit/Carpet.blend
+  artifactKey: Guid(275f93c952f0e0f448217c6d3affca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Edit/Carpet.blend using Guid(275f93c952f0e0f448217c6d3affca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b359db8464686d1380be23fd8e577a12') in 0.045644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/FallenPrince/Model/Edit/Window.blend
+  artifactKey: Guid(380787709feca7a44b231041b41d9c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Edit/Window.blend using Guid(380787709feca7a44b231041b41d9c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d234e260fffe3592cef03acd5190ab') in 0.056647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/FallenPrince/Model/Edit/Throne.blend
+  artifactKey: Guid(2bb871dc4ec7528438f96c0feb5702c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Edit/Throne.blend using Guid(2bb871dc4ec7528438f96c0feb5702c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbd60ef69b24bbd378c9a3ec5f6a0d4') in 0.046171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/FallenPrince/Model/Edit/Post.blend
+  artifactKey: Guid(206639461185ea246a673fe56b6e60b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Edit/Post.blend using Guid(206639461185ea246a673fe56b6e60b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffb84a0a89ef1a155909f0ecb30d4b3') in 0.032476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/FallenPrince/Model/Edit/Wall.blend
+  artifactKey: Guid(f2cf4a95be4b78444843571438cb2911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Edit/Wall.blend using Guid(f2cf4a95be4b78444843571438cb2911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd61bb134cec91fcff681314336c4af') in 0.044851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 769.790278 seconds.
+  path: Assets/FallenPrince/Model/Edit/Post.blend
+  artifactKey: Guid(206639461185ea246a673fe56b6e60b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Edit/Post.blend using Guid(206639461185ea246a673fe56b6e60b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664e0e60ead37a7febacb2b6d3989cd9') in 0.036893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.994114 seconds.
+  path: Assets/FallenPrince/Model/Wall.fbx
+  artifactKey: Guid(a67e98e03eb38814994d6486245fb387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Wall.fbx using Guid(a67e98e03eb38814994d6486245fb387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668f72a6a628c10eb61a337627b2f54f') in 0.038801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.999696 seconds.
+  path: Assets/FallenPrince/Prefabs
+  artifactKey: Guid(81c5fb867f1ab2e4ba7da8ce729fc198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Prefabs using Guid(81c5fb867f1ab2e4ba7da8ce729fc198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c608aa416b49ddcfea11031adfd353ab') in 0.007933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035932 seconds.
+  path: Assets/FallenPrince/Prefabs/Player.prefab
+  artifactKey: Guid(a37269cb5d20e244bb5a9a533e4f9ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Prefabs/Player.prefab using Guid(a37269cb5d20e244bb5a9a533e4f9ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43695c78e0b55bc738335cdfd198659b') in 0.060594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.951276 seconds.
+  path: Assets/FallenPrince/Prefabs/3D Model
+  artifactKey: Guid(94eaa304a8553ff4cbd1f6b416c5b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Prefabs/3D Model using Guid(94eaa304a8553ff4cbd1f6b416c5b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1eee1f9a38a020b5dd92163101d8675') in 0.007835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.416219 seconds.
+  path: Assets/FallenPrince/Prefabs/3D Model/Window.prefab
+  artifactKey: Guid(eefe5a813c2689d4ba452a89a118dc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Prefabs/3D Model/Window.prefab using Guid(eefe5a813c2689d4ba452a89a118dc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593dc1342cb811b407ae56de901811dc') in 0.044602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.762736 seconds.
+  path: Assets/FallenPrince/Prefabs/3D Model/Post.prefab
+  artifactKey: Guid(f4b7f6c79a1512348814befe470af8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Prefabs/3D Model/Post.prefab using Guid(f4b7f6c79a1512348814befe470af8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34168c83320901bec627ed04ce22ea96') in 0.017227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.713538 seconds.
+  path: Assets/FallenPrince/Prefabs/3D Model/Wall.prefab
+  artifactKey: Guid(bfb1a01b90707c54ea60f091577af400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Prefabs/3D Model/Wall.prefab using Guid(bfb1a01b90707c54ea60f091577af400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e634aa486f7c478da5a7662438d192e') in 0.028080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.048068 seconds.
+  path: Assets/FallenPrince/Prefabs/3D Model/Wall.prefab
+  artifactKey: Guid(bfb1a01b90707c54ea60f091577af400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Prefabs/3D Model/Wall.prefab using Guid(bfb1a01b90707c54ea60f091577af400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd537c24e37c4b2e81720758858997c0') in 0.015109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.175354 seconds.
+  path: Assets/FallenPrince/Prefabs/3D Model/Wall.prefab
+  artifactKey: Guid(bfb1a01b90707c54ea60f091577af400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Prefabs/3D Model/Wall.prefab using Guid(bfb1a01b90707c54ea60f091577af400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727a7dac52cfd0fe26729f9b1261647a') in 0.011128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.884512 seconds.
+  path: Assets/FallenPrince/Model/Textures/Wall_Material_BaseMap.png
+  artifactKey: Guid(5bf716d26953efe40b0a1f9f5fd92502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Wall_Material_BaseMap.png using Guid(5bf716d26953efe40b0a1f9f5fd92502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7eb441c2a2278020a6f94ffe28acc6d') in 0.028901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/FallenPrince/Model/Textures/Wall_Material_MaskMap.png
+  artifactKey: Guid(bb027a6ac9f8b0f4a92d4cfd454a361a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Wall_Material_MaskMap.png using Guid(bb027a6ac9f8b0f4a92d4cfd454a361a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38af4fbd919bac86d493d510bf27090') in 0.028078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/FallenPrince/Model/Textures/Wall_Material_Normal.png
+  artifactKey: Guid(5091cdc4d5c3fe84db31b79f6abdfacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Wall_Material_Normal.png using Guid(5091cdc4d5c3fe84db31b79f6abdfacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9540fccae9e31e9c6a3525d0198a3e1') in 0.028962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.984060 seconds.
+  path: Assets/FallenPrince/Model/Textures/Wall.mat
+  artifactKey: Guid(ff7ce3465fe82db4a9d13432810ef261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Wall.mat using Guid(ff7ce3465fe82db4a9d13432810ef261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8d1da607affc947bd3778f2538db2f') in 0.016281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.535738 seconds.
+  path: Assets/FallenPrince/Model/Textures/Post_Свет_Normal.png
+  artifactKey: Guid(6f315d7e0941a1f4f83b9f9912bd539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Post_Свет_Normal.png using Guid(6f315d7e0941a1f4f83b9f9912bd539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea02ed088755163dd46d014edc9e70') in 0.021364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 188.835649 seconds.
+  path: Assets/FallenPrince/Model/Textures/Materials/Post.mat
+  artifactKey: Guid(b8a91866a61917649a257620c8b2e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Materials/Post.mat using Guid(b8a91866a61917649a257620c8b2e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c14c959f3fdfcde8d48063658fb265') in 0.042604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/FallenPrince/Model/Textures/Materials/Window.mat
+  artifactKey: Guid(1746b3e12c42661449188cb39a6fdca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Model/Textures/Materials/Window.mat using Guid(1746b3e12c42661449188cb39a6fdca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701e4c36930abd95bbabf2f9cdee9b8c') in 0.024231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.672177 seconds.
+  path: Assets/FallenPrince/Scripts/GameSettings/UI/Effects/Blur/Demo/Sprites/UIBlurSprite.png
+  artifactKey: Guid(f68c852012f9bab448c5079c30cbc2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Scripts/GameSettings/UI/Effects/Blur/Demo/Sprites/UIBlurSprite.png using Guid(f68c852012f9bab448c5079c30cbc2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e1fd29fbd1e81e699cd4a3cc115bd1') in 0.035948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/FallenPrince/Sprite/Building/Warehouse - 1.png
+  artifactKey: Guid(73c5ac33bea09df4abf2db0d02d7aed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Sprite/Building/Warehouse - 1.png using Guid(73c5ac33bea09df4abf2db0d02d7aed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c1fd60a1d7eeef15c2d1c082643277') in 0.029901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/FallenPrince/Sprite/White Square.png
+  artifactKey: Guid(a5ee7d1a05652a64190ee9dd01f6c19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Sprite/White Square.png using Guid(a5ee7d1a05652a64190ee9dd01f6c19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a7c1ac86dc4e2a0f67a85be11c6b10') in 0.028869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/FallenPrince/Sprite/Terrain/Forest/Wall.jpg
+  artifactKey: Guid(2ebf66eca3683224abcfac21d728b5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FallenPrince/Sprite/Terrain/Forest/Wall.jpg using Guid(2ebf66eca3683224abcfac21d728b5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652a25d3c4142392b07a8402e4ef6efa') in 0.024173 seconds 
